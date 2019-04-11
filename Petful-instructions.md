@@ -20,7 +20,7 @@ If you’re the sort of person who likes a working example, you can see [the wor
 
 
 ##### user story #1: 
-`
+```
 As a pet lover, I want to go to the FIFO pet adoption site so that I can get more information about the adoption process
 
 Accesptance criteria
@@ -32,7 +32,7 @@ The site has a description of the adoption process
 It has a meaningful picture that matches its description
 A button indicating that I can start the adoption process
 
-`
+```
 
 ##### user story #2: 
 `
