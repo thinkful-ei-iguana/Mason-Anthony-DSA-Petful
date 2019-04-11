@@ -109,7 +109,7 @@ This app will use 2 distinct repositories: 1 for the client, and 1 for the serve
 #### Set up the client
 
 * Move back to the project directory: `cd ..`.
-* Update `create-react-app` and then use it to generate our client:
+* Use `create-react-app` for your client:
   ```js
   npm install -g create-react-app && create-react-app petful-client/
   ```
@@ -119,14 +119,9 @@ This app will use 2 distinct repositories: 1 for the client, and 1 for the serve
   ```js
   echo '{"extends":"react-app"}' >> .eslintrc`
   ```
-* Initialize a git repo: `git init`.
-* Commit your changes: `git add -A; git commit -m "Initial commit"`.
-* Create a new repo on GitHub called `petful-client`: https://github.com/new.
-* Add a new remote that points to your GitHub repository:
-```js
-  git remote add origin https://github.com/YOUR_GITHUB_USERNAME/petful-client
-  ```
-  * Push your changes up to GitHub.
+* Initialize a git repo
+* Create a new repo on GitHub called `petful-client` and commit your changes to github
+* Push your changes up to GitHub
 
 #### Create and test API endpoints
 
