@@ -92,9 +92,9 @@ This app will use 2 distinct repositories: 1 for the client, and 1 for the serve
 * Create the parent directory for your app on your local machine: `mkdir Petful`.
 * Move into the directory: `cd Petful`.
 
-##### Set up the server    
+#### Set up the server    
 
-* Clone the server template repository:**
+* Clone the server template repository:*
   ```js
   git clone https://github.com/Thinkful-Ed/backend-template server
   ```
@@ -112,7 +112,7 @@ This app will use 2 distinct repositories: 1 for the client, and 1 for the serve
   ```
   * You can now `git push` to the `origin master` branch to save this repo on your GitHub.
 
-##### Set up the client
+#### Set up the client
 
 * Move back to the project directory: `cd ..`.
 * Update `create-react-app` and then use it to generate our client:
@@ -134,7 +134,7 @@ This app will use 2 distinct repositories: 1 for the client, and 1 for the serve
   ```
   * Push your changes up to GitHub.
 
-##### Create and test API endpoints
+#### Create and test API endpoints
 
 Your app should be able to show us the cat or dog that has been in the shelter the longest, and also be able to remove an animal from the shelter after it has been adopted. This will require `GET`ing the pet information to show and and `DELETE`ing, the pet from the shelter when it is adopted.
 
@@ -169,7 +169,7 @@ Your app should be able to show us the cat or dog that has been in the shelter t
 * Go to `http://localhost:8080/api/dog` and say "hi" to your dog! 
 
 
-##### Other requirements
+#### Other requirements
 
 * Use a Queue data struture that is implemented with either a singly linked list or doubly linked list.
 * Deploy your server using Zeit
@@ -179,13 +179,13 @@ Your app should be able to show us the cat or dog that has been in the shelter t
 
 
 
-##### Deploy your server
+#### Deploy your server
 
 
-##### Deploy your client
+#### Deploy your client
 
 
-##### Document your app
+#### Document your app
 
 Now that all the core features of your app are in place, you should have a pretty good idea of how you would explain the app to a user. Do that! Add some copy to your client's dashboard that gives your app a name and explains what its purpose is and how to use it. You could even put this introductory content into its own component on the dashboard to make it easier to show and hide later. 
 
@@ -196,10 +196,6 @@ Both repos in this project should have `README.md` files.
 * The server's README should explain how other developers would consume (or use) your API, and provide example requests and responses. 
 * _Both_ READMEs should also explain the tech stacks used in the repo, for the benefit of developers who might want to work on your project.
 
-
-## Submit your app
-
-Create a gist containing the live links to both parts of your project _and_ their respective GitHub repositories. **Submit a link to that gist using the form at the bottom of this assignment**.
 
 ### Look beyond deployment
 
