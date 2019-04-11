@@ -96,21 +96,15 @@ This app will use 2 distinct repositories: 1 for the client, and 1 for the serve
 
 * Clone the server template repository:
   ```js
-  git clone https://github.com/Thinkful-Ed/backend-template server
+  git clone https://github.com/tparveen/DSA-Petful 
   ```
-* Move into the server directory: `cd server`.
 * Install the dependencies: `npm install`.
 * Install `npm-check-updates` with `npm i -g npm-check-updates`.
 * Run `ncu` to see the diff in the version numbers in your `package.json`.
 * Run `ncu -u` to apply the new version numbers.
 * Run `npm i` to install all your new dependencies.
-* Create a new repo called `petful-server` on GitHub: https://github.com/new.
-  * Make sure the "Initialize this repository with a README" option is left *unchecked*.
-* Update the remote to point to your GitHub repository:
-  ```js
-  git remote set-url origin https://github.com/YOUR_GITHUB_USERNAME/petful-server
-  ```
-  * You can now `git push` to the `origin master` branch to save this repo on your GitHub.
+* Create a new repo called `petful-server` on GitHub
+* You can now `git push` to the `origin master` branch to save this repo on your GitHub.
 
 #### Set up the client
 
