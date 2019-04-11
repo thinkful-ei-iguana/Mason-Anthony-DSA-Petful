@@ -94,7 +94,7 @@ This app will use 2 distinct repositories: 1 for the client, and 1 for the serve
 
 ##### Set up the server    
 
-**Clone the server template repository:**
+* Clone the server template repository:**
   ```js
   git clone https://github.com/Thinkful-Ed/backend-template server
   ```
