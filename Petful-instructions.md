@@ -35,7 +35,7 @@ A button indicating that I can start the adoption process
 ```
 
 ##### user story #2: 
-`
+```
 As a user interested in adopting pets, I want to get more information on the pet so that I can make an informed decision
 
 Accesptance criteria
@@ -48,10 +48,10 @@ I am provided the imformation of pet such as:
 * its name, sex, age, and breed; and
 * a story of its journey to the shelter.
 
-`
+```
 
 ##### user story #3: 
-`
+```
 As a user interested in adopting pets, I want to have a way to clearly see the pet(s) that I can adopt 
 so that I am not distracted by other pets that are not on the line for adoption
 
@@ -59,11 +59,10 @@ Accesptance criteria
 
 When I go to the adoption page I should be able to only see the pet that is next in line to be adopted. 
 If there are other pets in line I could see them but I should not be able to adopt them other than the one next in line to be adopted.
-
-`
+```
 
 ##### user story #4: 
-`
+```
 As a user interested in adopting pets, I want to know where I am on line so I know how long I have to wait
 
 Accesptance criteria
@@ -71,10 +70,10 @@ Accesptance criteria
 When I go to the adoption page, I should be able to see my place in line and anyone else who is on the line before me.
 I should not be able to start the adoption process unless its my turn. 
 
-`
+```
 
 ##### user story #5: 
-`
+```
 As a user interested in adopting pets, I want to be able to see the pets that are being adopted by other pet lovers and removed from the shelter 
 so that I know that the pet I am interested in may no longer be available for adoption
 
@@ -84,33 +83,7 @@ When I go to the adoption page,
 
 I should be able to see my place in line and anyone else who is in line before me.
 I should not be able to start the adoption process unless its my turn. 
-
-`
-
-
-##### user story #4: 
-`
-As a user I 
-
-Accesptance criteria
-
-When I go to the adoption page, I should be able to see my place in line and anyone else who is in line before me.
-I should not be able to start the adoption process unless its my turn. 
-
-`
-
-
-
-##### user story #4: 
-`
-As a user interested in adopting pets, I want to know where I am on line so I know how long I have to wait
-
-Accesptance criteria
-
-When I go to the adoption page, I should be able to see my place in line and anyone else who is in line before me.
-I should not be able to start the adoption process unless its my turn. 
-
-`
+```
 
 
 ## Helpful starting point
