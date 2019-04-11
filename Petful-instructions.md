@@ -129,7 +129,7 @@ Your app should be able to show us the cat or dog that has been in the shelter t
 
 ##### Getting an animal
 
-* In `server/src/app.js` add a `GET` endpoint at `api/cat` which returns the following cat information as JSON:
+* In the server add a `GET` endpoint at `api/cat` which returns the following cat information as JSON:
 ``` javascript
   {
     imageURL:'https://assets3.thrillist.com/v1/image/2622128/size/tmg-slideshow_l.jpg', 
@@ -164,9 +164,7 @@ Your app should be able to show us the cat or dog that has been in the shelter t
 * Deploy your server using Zeit
 * Deploy your client using heroku
 * Test the functionality of your code often! Make incremental changes and see that they're working in the browser before you move on. 
-* Apply the same approach to accessibility. Resolve any accesibility warnings your linter generates, and run aXe when you write new markup and styles. You can revisit [our lesson on aXe](https://courses.thinkful.com/web-dev-002v1/project/1.2.2) if you need to.
-
-
+* Apply the same approach to accessibility. Resolve any accesibility warnings your linter generates, and run aXe when you write new markup and styles. 
 
 #### Deploy your server
 
