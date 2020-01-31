@@ -1,5 +1,6 @@
 const catList = [
   {
+    image: 'https://i.redd.it/6vig3zgaff911.jpg',
     name: 'Alfredo',
     Breed: 'Siamese',
     Age: '3 years',
@@ -10,6 +11,8 @@ const catList = [
       'Alfredo was just brought to us from another shelter. Everyone here loves taking him for walks and showing him off to the visitors.'
   },
   {
+    image:
+      'https://www.petguide.com/wp-content/uploads/2015/10/domestic-shorthair-1.jpg',
     name: 'Jazzy',
     Breed: 'Domestic Shorthair',
     Age: '1 year',
@@ -20,6 +23,8 @@ const catList = [
       "Jazzy was just brought to our shelter because the owner was moving and jazzy couldn't tag along"
   },
   {
+    image:
+      'https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/43523945/2/?bust=1544647973&width=720',
     name: 'Gizmo',
     Breed: 'Domestic Shorthair',
     Age: '2 years',
@@ -30,6 +35,7 @@ const catList = [
       "Gizmo got here about a week ago and we've all fallen in love with him and can't wait for him to be adopted"
   },
   {
+    image: 'https://public.sheltermanager.com/animals/sp0795/2693.jpg',
     name: 'Jackson',
     Breed: 'Domestic Shorthair',
     Age: '1 year',

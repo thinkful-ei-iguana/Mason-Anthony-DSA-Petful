@@ -21,7 +21,5 @@ const express = require('express');
 const peopleRouter = express.Router();
 
 peopleRouter.get('/new-person', (req, res, next) => {
-
-    let newPerson = 
-    return res.json(newPerson)
-})
+  return res.json([peopleList]);
+});

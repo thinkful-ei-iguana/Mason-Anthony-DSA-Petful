@@ -1,5 +1,6 @@
 const dogList = [
   {
+    image: 'https://images.dog.ceo/breeds/hound-blood/n02088466_11623.jpg',
     name: 'Bo',
     Breed: 'Blood Hound',
     Age: '5 years',
@@ -10,6 +11,8 @@ const dogList = [
       'Bo came to us a few months ago when his owner could no longer care for him. Everyone around here has taken good care for him while he awaits for his new family.'
   },
   {
+    image:
+      'https://i.pinimg.com/originals/8a/75/4d/8a754dcd7bc842c023d2963dc5265cc5.jpg',
     name: 'Indy',
     Breed: 'Pit Bull',
     Age: '2 years',
@@ -20,6 +23,8 @@ const dogList = [
       'Indy has been with us for a few months now and boy does the staff love him.'
   },
   {
+    image:
+      'https://www.petguide.com/wp-content/uploads/2014/10/black-mouth-cur-1.jpg',
     name: 'Latke',
     Breed: 'Cur',
     Age: '1 year',
@@ -30,7 +35,8 @@ const dogList = [
       "Latke was just brought to us from another shelter where she spent most of her youth. She doesn't have any known health issues just waiting on her right family."
   },
   {
-    image: '',
+    image:
+      'https://i.pinimg.com/originals/35/16/16/351616fbe0f94ab4cecb7ef46acf8e70.jpg',
     name: 'Grizz',
     Breed: 'Husky',
     Age: '5 months',
