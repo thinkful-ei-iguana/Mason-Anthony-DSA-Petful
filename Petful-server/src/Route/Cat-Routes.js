@@ -2,10 +2,17 @@ const express = require('express');
 const catRouter = express.Router();
 const catList = require('../List-Storage/Cat-List');
 
-catRouter.get('/all-cats', (req, res, next) => {
-  res.json(catList);
+catRouter.get('/', (req, res, next) => {
+  if (catList.first === null)
+    res.status(404).send('Sorry, no more cats available');
+  else {
+    return res.json(catList.first.value);
+  }
 });
 
-catRouter;
+catRouter.delete('/remove', (req, res, next) => {
+  catList.dequeue();
+  return res.status(204);
+});
 
 module.exports = catRouter;
