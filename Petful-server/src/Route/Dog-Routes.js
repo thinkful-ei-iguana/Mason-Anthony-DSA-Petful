@@ -12,7 +12,7 @@ dogRouter.get('/', (req, res, next) => {
 
 dogRouter.delete('/:id', (req, res, next) => {
   dogList.dequeue();
-  return res.status(204);
+  return res.status(204).json(dogList.first);
 });
 
 module.exports = dogRouter;

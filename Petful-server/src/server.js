@@ -25,15 +25,15 @@ app.use('/api/dog', dogRouter);
 app.use('/api/cat', catRouter);
 app.use('/api/people', peopleRouter);
 
-app.listen(8080, () => {
-  console.log('Serving on 8080');
-});
-
 // Catch-all 404
 app.use(function(req, res, next) {
   const err = new Error('Not Found');
   err.status = 404;
   next(err);
+});
+
+app.listen(8080, () => {
+  console.log('Serving on 8080');
 });
 
 module.exports = app;

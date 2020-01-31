@@ -8,7 +8,7 @@ peopleRouter.get('/', (req, res, next) => {
 
 peopleRouter.delete('/', (req, res, next) => {
   peopleList.dequeue();
-  return res.status(204);
+  return res.status(204).json(peopleList.first);
 });
 
 module.exports = peopleRouter;
