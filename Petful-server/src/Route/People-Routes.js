@@ -1,24 +1,6 @@
-const peopleList = [
-  {
-    name: 'Anthony Bostic',
-    age: '22'
-  },
-  {
-    name: 'Mason Reichbauer',
-    age: '31'
-  },
-  {
-    name: 'Nancy Williams',
-    age: '40'
-  },
-  {
-    name: 'John Doe',
-    age: '30'
-  }
-];
-
 const express = require('express');
 const peopleRouter = express.Router();
+const peopleList = require('../List-Storage/People-List');
 
 peopleRouter.get('/all-people', (req, res, next) => {
   return res.json(peopleList);
