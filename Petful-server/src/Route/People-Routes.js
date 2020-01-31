@@ -20,8 +20,8 @@ const peopleList = [
 const express = require('express');
 const peopleRouter = express.Router();
 
-peopleRouter.get('/new-person', (req, res, next) => {
-  return res.json([peopleList]);
+peopleRouter.get('/all-people', (req, res, next) => {
+  return res.json(peopleList);
 });
 
 module.exports = peopleRouter;
