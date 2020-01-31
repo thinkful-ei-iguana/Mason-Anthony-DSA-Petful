@@ -47,3 +47,8 @@ const dogList = [
       "Grizz was brought to us by a family because their family dog had puppies and they didn't know what to do with the puppies."
   }
 ];
+
+const express = require('express');
+const dogRouter = express.Router();
+
+module.exports = dogRouter;

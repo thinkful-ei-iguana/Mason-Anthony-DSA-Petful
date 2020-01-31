@@ -6,6 +6,7 @@ const peopleRouter = require('./Route/People-Routes');
 
 const app = express();
 app.use(cors());
+app.use(express());
 
 // Catch-all 404
 app.use(function(req, res, next) {
@@ -34,3 +35,5 @@ app.use('/api/people', peopleRouter);
 app.listen(8080, () => {
   console.log('Serving on 8080');
 });
+
+module.exports = app;

@@ -46,3 +46,8 @@ const catList = [
       'Jackson was brought to us by a family that found him wondering their streets so he could find a family.'
   }
 ];
+
+const express = require('express');
+const catRouter = express.Router();
+
+module.exports = catRouter;

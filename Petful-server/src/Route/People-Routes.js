@@ -23,3 +23,5 @@ const peopleRouter = express.Router();
 peopleRouter.get('/new-person', (req, res, next) => {
   return res.json([peopleList]);
 });
+
+module.exports = peopleRouter;
