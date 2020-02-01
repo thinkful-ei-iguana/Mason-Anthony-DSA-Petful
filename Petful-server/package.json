@@ -2,6 +2,9 @@
   "name": "petful.server",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "12.14.0"
+  },
   "keywords": [],
   "author": "Alex Cumbo",
   "license": "UNLICENSED",

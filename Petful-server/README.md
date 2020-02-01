@@ -2,8 +2,8 @@
 
 Created by Mason Reichbauer and Anthony Bostic
 Live App Link:
-Client Side Repo Link:
-API Repo Link:
+[client side repo link](https://github.com/thinkful-ei-iguana/Mason-Anthony-Petful-Client)
+[API Repo Link](https://github.com/thinkful-ei-iguana/Mason-Anthony-DSA-Petful)
 
 ## Technology Used
 
