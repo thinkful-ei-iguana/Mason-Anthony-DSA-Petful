@@ -3,6 +3,7 @@ const cors = require('cors');
 const dogRouter = require('./Route/Dog-Routes');
 const catRouter = require('./Route/Cat-Routes');
 const peopleRouter = require('./Route/People-Routes');
+const { PORT } = require('./config');
 
 const app = express();
 app.use(cors());
@@ -32,7 +33,7 @@ app.use(function(req, res, next) {
   next(err);
 });
 
-app.listen(8080, () => {
+app.listen(PORT, () => {
   console.log('Serving on 8080');
 });
 
